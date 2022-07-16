@@ -3,11 +3,11 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className='' >
+    <header className='max-w-screen-xl mx-auto' >
         <nav className='flex items-center justify-between lg:p-3 py-3 px-1'>
             <div className='flex items-center gap-x-4'>
                 <div className="">
-                    <Link href={'/'} ><img src="https://links.papareact.com/yvf" alt="Logo" className='w-44 object-contain'/></Link>
+                    <Link href={'/'} ><img src="https://links.papareact.com/yvf" alt="Logo" className='w-44 object-contain cursor-pointer'/></Link>
                 </div>
                 <div className='hidden md:inline-flex items-center gap-x-6' >
                     <h1>About</h1>
